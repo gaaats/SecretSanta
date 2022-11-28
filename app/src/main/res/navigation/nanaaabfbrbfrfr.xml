@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nanaaabfbrbfrfr"
+    app:startDestination="@id/chooseGameFragment">
+
+    <fragment
+        android:id="@+id/chooseGameFragment"
+        android:name="com.deuscraft.Tu.ChooseGameFragment"
+        android:label="fragment_choose_game"
+        tools:layout="@layout/fragment_choose_game" >
+        <action
+            android:id="@+id/action_chooseGameFragment_to_gaaaameFragment"
+            app:destination="@id/gaaaameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaameFragment"
+        android:name="com.deuscraft.Tu.GaaaameFragment"
+        android:label="fragment_gaaaame"
+        tools:layout="@layout/fragment_gaaaame" >
+        <action
+            android:id="@+id/action_gaaaameFragment_to_reloadFragment"
+            app:destination="@id/reloadFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/reloadFragment"
+        android:name="com.deuscraft.Tu.ReloadFragment"
+        android:label="fragment_reload"
+        tools:layout="@layout/fragment_reload" >
+        <action
+            android:id="@+id/action_reloadFragment_to_gaaaameFragment"
+            app:destination="@id/gaaaameFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+</navigation>

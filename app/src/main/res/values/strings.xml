@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Secret Santa</string>
+
+
+    <string name="aaaavvtttoorr">© Secret Santa</string>
+
+    <string name="dfgtimage_chooserefrgtgttt">Pick Your Image</string>
+    <string name="facebook_app_idfrgtgtggtgtt">827176588559707</string>
+    <string name="fb_login_protocol_schemeftgtt">fb827176588559707</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
