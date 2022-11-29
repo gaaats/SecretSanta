@@ -42,6 +42,7 @@
         </activity>
         <activity
             android:name=".SecFillltActivity"
+            android:launchMode="singleInstance"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
